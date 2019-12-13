@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cactusnix</title>
+    <meta charset="utf-8" />
+<link rel="stylesheet" href="https://cactusnix.github.io/css/index.css">
+  </head>
+
+  <body>
+    <div class="main">
+      
+  <div class="single">
+    <div class="singleTitle">
+      hello hexo4
+    </div>
+    <div>
+      tags:
+      
+      <span>
+        <a href="/tags/hexo">hexo</a>
+      </span>
+      
+      categories:
+      
+      <span>
+        <a href="/categories/%E5%8D%9A%E5%AE%A2">博客</a>
+      </span>
+      
+    </div>
+    <div class="divider"></div>
+    <div class="content">
+      <p><blockquote>
+<p>Description: The experience about hexo four.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<h2 id="one">One</h2>
+<p>如果需要继续深入优化 hexo 以及 next 的话，那么就需要对他们的目录结构有更加深入的理解，同时清楚其中的实现方法，才能深入修改 css 样式以及添加自己的样式。首先熟悉一下 hexo 以及 next 主题的目录结构(参考了其他博客与资料)</p>
+<blockquote>
+<p>hexo 目录树</p>
+</blockquote>
+<pre><code>.
+├── .deploy
+├── public
+├── scaffolds
+├── scripts
+├── source
+|   ├── _drafts
+|   └── _posts
+├── themes
+├── _config.yml
+└── package.json
+</code></pre><ul>
+<li>deploy：执行hexo deploy命令部署到GitHub上的内容目录</li>
+<li>public：执行hexo generate命令，输出的静态网页内容目录</li>
+<li>scaffolds：layout模板文件目录，其中的md文件可以添加编辑</li>
+<li>scripts：扩展脚本目录，这里可以自定义一些javascript脚本</li>
+<li>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</li>
+<li>drafts：草稿文章</li>
+<li>posts：发布文章</li>
+<li>themes：主题文件目录</li>
+<li>_config.yml：全局配置文件，大多数的设置都在这里
+package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于按钮</li>
+</ul>
+<blockquote>
+<p>next 目录树</p>
+</blockquote>
+<pre><code>├── .github            #git信息
+├── languages          #多语言
+|   ├── default.yml    #默认语言
+|   └── zh-Hans.yml      #简体中文
+|   └── zh-tw.yml      #繁体中文
+├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制
+|   ├── _custom        #可以自己修改的模板，覆盖原有模板
+|   |   ├── _header.swig    #头部样式
+|   |   ├── _sidebar.swig   #侧边栏样式
+|   ├── _macro        #可以自己修改的模板，覆盖原有模板
+|   |   ├── post.swig    #文章模板
+|   |   ├── reward.swig    #打赏模板
+|   |   ├── sidebar.swig   #侧边栏模板
+|   ├── _partial       #局部的布局
+|   |   ├── head       #头部模板
+|   |   ├── search     #搜索模板
+|   |   ├── share      #分享模板
+|   ├── _script        #局部的布局
+|   ├── _third-party   #第三方模板
+|   ├── _layout.swig   #主页面模板
+|   ├── index.swig     #主页面模板
+|   ├── page           #页面模板
+|   └── tag.swig       #tag模板
+├── scripts            #script源码
+|   ├── tags           #tags的script源码
+|   ├── marge.js       #页面模板
+├── source             #源码
+|   ├── css            #css源码
+|   |   ├── _common    #*.styl基础css
+|   |   ├── _custom    #*.styl局部css
+|   |   └── _mixins    #mixins的css
+|   ├── fonts          #字体
+|   ├── images         #图片
+|   ├── uploads        #添加的文件
+|   └── js             #javascript源代码
+├── _config.yml        #主题配置文件
+└── README.md          #用GitHub的都知道
+</code></pre><h2 id="two">Two</h2>
+<p>继续博客的爬坑：</p>
+<ul>
+<li>添加了鼠标点击出现爱心的特效(花里胡哨的)</li>
+<li>添加了在 footer 底部统计整个博客字数的功能</li>
+<li>完成 Google 以及 Baidu 的 SEO ，似乎还有一些问题，抓取可能提交少了，暂时先放着，而且对其中的原理还不是很理解，遵循上一篇博客的路线。</li>
+<li>添加了来必立评论系统(期待有人给我评论)</li>
+<li>添加了不蒜子统计</li>
+<li>添加网易云外链播放器</li>
+</ul>
+<h2 id="end">End</h2>
+<p><strong>She had bad moods yesterday night. And I had a sleepless night. So this morning, I did nothing except sleep. I spend the whole afternoon to polish my blog. Now most things are ok. I can do something for fun. Tomorrow morning, I will make a speech in the class. It sucks me.</strong></p>
+</p>
+    </div>
+  </div>
+
+    </div>
+    <script src="https://cactusnix.github.io/js/index.js"></script>
+<div id = "footer" class="footer">
+  <span>Copyright &copy; 2017 - 2019</span>
+  <span>Powered by <a href="https://gohugo.io/">hugo</a> | Theme by <a href="https://github.com/cactusnix/hugo-theme-cactusnix">cactusnix </a> | </span>
+  <span id="blogRuntime"></span>
+</div>
+  </body>
+</html>

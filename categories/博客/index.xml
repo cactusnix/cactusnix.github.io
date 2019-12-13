@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on Cactusnix</title>
+    <link>https://cactusnix.github.io/categories/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 Dec 2019 12:23:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://cactusnix.github.io/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://cactusnix.github.io/posts/markdown-syntax-guide/</link>
+      <pubDate>Fri, 06 Dec 2019 12:23:35 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/markdown-syntax-guide/</guid>
+      <description>here is my markdown syntax guide Headings 建议只使用h1-h3，只支持三级标题的渲染。 h1 h2 h3 Blockquote Blockquote 渲染 List Ordered List list1 list2 list3 Unordered List list1 list2 list3</description>
+    </item>
+    
+    <item>
+      <title>README</title>
+      <link>https://cactusnix.github.io/posts/readme/</link>
+      <pubDate>Wed, 13 Dec 2017 22:55:34 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/readme/</guid>
+      <description>Description: Memorial day about the hexo blog theme. 今天第一天正式发布了自己开发了 hexo 主题，在此记录一下。 现在有点困😪。 懒癌的我日后再补上这篇记录. 2017-12-15 21:29:58 水平有限 表达有限 但一直努力进步中 博客框架 hexo 是基于 Node.js 的博客框架 博客主题 hexo 有很多优秀的博客</description>
+    </item>
+    
+    <item>
+      <title>hello hexo5</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo5/</link>
+      <pubDate>Mon, 16 Oct 2017 18:25:38 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo5/</guid>
+      <description>Description: The experience about hexo five. hexo 图片插入 关于 hexo 插入图片这个事情，搞的头都炸了，有很多种方式来插入图片，不过使用了那个 hexo-asset-image 插件之后真的各种问题，所以没有使用插件，对于 Markdown 插入图片的两种方式也没有使用，使用了 hexo 官方推荐的标</description>
+    </item>
+    
+    <item>
+      <title>hello hexo4</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo4/</link>
+      <pubDate>Thu, 12 Oct 2017 19:04:49 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo4/</guid>
+      <description>Description: The experience about hexo four. One 如果需要继续深入优化 hexo 以及 next 的话，那么就需要对他们的目录结构有更加深入的理解，同时清楚其中的实现方法，才能深入修改 css 样式以及添加自己的样式。首先熟悉一下 hexo 以及 next 主题的目录结构(参考了其他</description>
+    </item>
+    
+    <item>
+      <title>hello hexo3</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo3/</link>
+      <pubDate>Tue, 10 Oct 2017 21:42:46 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo3/</guid>
+      <description>Description: The experience about hexo three. 一些主题优化的删删改改，目前还没达到，高度优化的层面，与各种模版仍然大同小异，之后深入主题的部件排版部分以及 css 样式部分。 之前遗留的问题均已经解决 出现 rss 订阅内容残缺的问题，经过调试后发现生成</description>
+    </item>
+    
+    <item>
+      <title>hello hexo2</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo2/</link>
+      <pubDate>Sun, 08 Oct 2017 23:08:55 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo2/</guid>
+      <description>Description: The experience about hexo two. 今天国庆结束返校了，又玩耍了一波 next 主题。这次搞了一些 next 主题的优化： 主页文章的阴影 文章之间的分割线 文章结束的本文结束（还有一些问题) 头像的旋转特效 头像变成圆的 文章阅读进度 本地搜索 rss 订阅 copyright 自定</description>
+    </item>
+    
+    <item>
+      <title>hello hexo</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo/</link>
+      <pubDate>Sat, 07 Oct 2017 22:43:25 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo/</guid>
+      <description>Description: The experience about hexo one. 今天上手了 hexo + GitHub + nexT 的个人博客的搭建，并且看了 hexo 和 nexT 的官方文档，收获颇多，感觉这些人是真的很厉害，也很有想法和毅力，这些都是需要我去学习的。于是就从这第一篇个人博客开始，了解 hexo 和 nexT 的使用，</description>
+    </item>
+    
+  </channel>
+</rss>

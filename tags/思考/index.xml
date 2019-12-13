@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考 on Cactusnix</title>
+    <link>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 思考 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Oct 2017 23:21:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>learn vicious circle</title>
+      <link>https://cactusnix.github.io/posts/learn-vicious-circle/</link>
+      <pubDate>Wed, 11 Oct 2017 23:21:05 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/learn-vicious-circle/</guid>
+      <description>Description: I&#39;m lost in the learn vicious circle. Recently, I fall into the learn vicious circle. When I learn programming, meeting the problems is very normal. However, there is a problem that when I solve out one problem, another problem appears in front of me. Therefore, I have to solve the new problem. So back and forth. The effectiveness is so low. I spend a lot of time, but got less. This is the learn vicious circle. It suckes me! My english is so poor. It&#39;s hard to continue my article. Should I be trapped there. Just now, I heared</description>
+    </item>
+    
+  </channel>
+</rss>

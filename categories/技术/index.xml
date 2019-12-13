@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on Cactusnix</title>
+    <link>https://cactusnix.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 Oct 2017 20:13:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://cactusnix.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>阿里云踩坑</title>
+      <link>https://cactusnix.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E8%B8%A9%E5%9D%91/</link>
+      <pubDate>Mon, 09 Oct 2017 20:13:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E8%B8%A9%E5%9D%91/</guid>
+      <description>DECSription: The experience about aliyun. 服务器 服务器这个就很复杂了，我个人也没有摸得很清楚，也不知道具体的划分，就乱扯扯了，有云虚拟主机，云服务器 ECS，VPS 啊，我买的是 ECS ，学生优惠一折，9.9元/月，原价108元/月，买了一年</description>
+    </item>
+    
+  </channel>
+</rss>
