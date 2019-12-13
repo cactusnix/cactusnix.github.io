@@ -4,8 +4,6 @@
     <title>Cactusnix</title>
     <meta charset="utf-8" />
 <link rel="stylesheet" href="https://cactusnix.github.io/css/index.css">
-<link rel="stylesheet" href="https://cactusnix.github.io/css/gitalk.css">
-<script src="https://cactusnix.github.io/js/gitalk.min.js"></script>
   </head>
 
   <body>
@@ -65,18 +63,29 @@
 </blockquote>
 </p>
     </div>
-    <div id="gitalk-container"></div>
-    <script>
-      const gitalk = new Gitalk({
-      clientID: '59c714a919dd7940d40e',
-        clientSecret: '4db1956ff40ae2d360c07d22d5fa9ecd0c1ccbc8',
-        repo: 'cactusnix.github.io',
-        owner: 'cactusnix',
-        admin: ['cactusnix'],
-        distractionFreeMode: false 
-      })
-      gitalk.render('gitalk-container')
-    </script>
+    
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cactusnix.github.io/css/gitalk.css">
+<script src="https://cactusnix.github.io/js/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '[Client ID]',
+    clientSecret: '[Client Secret]',
+    repo: 'mogeko.github.io',
+    owner: 'Mogeko',
+    admin: ['Mogeko'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
   </div>
 
     </div>
