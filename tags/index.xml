@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Cactusnix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Dec 2019 21:35:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 15:47:43 +0000</lastBuildDate>
     
 	<atom:link href="https://cactusnix.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>思考</title>
+      <link>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</link>
+      <pubDate>Wed, 25 Dec 2019 15:47:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>only</title>
@@ -53,15 +62,6 @@
       <pubDate>Sat, 14 Oct 2017 22:35:32 +0000</pubDate>
       
       <guid>https://cactusnix.github.io/tags/%E8%AF%B4%E8%AF%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>思考</title>
-      <link>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</link>
-      <pubDate>Wed, 11 Oct 2017 23:21:05 +0000</pubDate>
-      
-      <guid>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</guid>
       <description></description>
     </item>
     
