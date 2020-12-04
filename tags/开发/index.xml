@@ -5,11 +5,12 @@
     <link>https://cactusnix.github.io/tags/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on Cactusnix</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://cactusnix.github.io/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 04 Dec 2020 15:55:55 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iOS 14 小组件 Age Widget - 基于 JSBox</title>
       <link>https://cactusnix.github.io/posts/ios-14-%E5%B0%8F%E7%BB%84%E4%BB%B6-age-widget-%E5%9F%BA%E4%BA%8E-jsbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Dec 2020 15:55:55 +0000</pubDate>
       
       <guid>https://cactusnix.github.io/posts/ios-14-%E5%B0%8F%E7%BB%84%E4%BB%B6-age-widget-%E5%9F%BA%E4%BA%8E-jsbox/</guid>
       <description>介绍 此小组件基于 iOS 上的 JSBox 编程软件开发，JSBox 使用小组件功能需要订阅，具体订阅方式可以自行查看。 支持 2*2、2*4、4*4 三种大小布局。 支持中英文语言切换，需要更改 iOS 系统语言。 有两种数据运行模式，第</description>
