@@ -1,20 +1,18 @@
-/** @format */
-
 @font-face {
-  font-family: 'Myriad Apple';
+  font-family: "Myriad Apple";
   src: url(../fonts/Myriad_Apple.otf);
 }
 
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: flex; 
+  flex-direction: column; 
   min-height: 100vh;
 }
 
 body > * {
-  font-family: 'Myriad Apple', sans-serif;
+  font-family: "Myriad Apple", sans-serif;
   letter-spacing: 0.1rem;
 }
 
@@ -29,11 +27,11 @@ body > * {
 
 a {
   text-decoration: none;
-  color: #9eac86;
+  color: #9EAC86;
 }
 
 .divider {
-  background-color: #9eac86;
+  background-color: #9EAC86;
   height: 0.05rem;
   margin-top: 1rem;
 }
@@ -56,7 +54,7 @@ a {
 
 .shadowDiv {
   width: 100%;
-  box-shadow: -1rem 1rem 0.1rem rgba(32, 33, 36, 0.28);
+  box-shadow: -1rem 1rem 0.1rem rgba(32,33,36,0.28);
 }
 
 /* 头部样式 */
@@ -81,14 +79,14 @@ a {
 }
 
 .main {
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   flex: 1;
   padding-bottom: 5rem;
 }
 
 /* 底部样式 */
 .footer {
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   padding: 1%;
   font-size: 0.9rem;
   text-align: center;
@@ -115,36 +113,36 @@ a {
 
 .cardTitle a {
   font-size: 1.25rem;
-  color: #1f6751;
+  color: #1F6751;
 }
 
 .cardTime {
   font-size: 0.9rem;
-  color: #d87fa1;
+  color: #D87FA1;
 }
 
-.tag-list {
+.tagList {
   font-size: 0.8rem;
 }
 
-.tag-list span {
+.tagList span {
   width: 2rem;
   height: 1rem;
   padding: 0.2rem 0.5rem;
-  background-color: #1f6751;
+  background-color: #1F6751;
   border-radius: 1rem;
 }
 
-.tag-list a {
+.tagList a {
   color: whitesmoke;
 }
 
-.tag-list a:hover {
+.tagList a:hover {
   text-decoration: underline;
 }
 
 .list {
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   padding: 5% 5%;
 }
 
@@ -162,8 +160,8 @@ a {
   position: absolute;
   top: 0;
   bottom: 0;
-  content: '';
-  border: 0.1rem dashed #9eac86;
+  content: "";
+  border: 0.1rem dashed #9EAC86;
 }
 
 .list ul li {
@@ -177,17 +175,16 @@ a {
 }
 
 .list ul li > span {
-  content: '';
+  content: "";
   height: 100%;
-  border: 0.1rem solid #9eac86;
+  border: 0.1rem solid #9EAC86;
   position: absolute;
   top: 0;
   left: -1rem;
 }
 
-.list ul li > span::before,
-.list ul li > span::after {
-  content: '';
+.list ul li > span::before, .list ul li > span::after {
+  content: "";
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
@@ -208,7 +205,7 @@ a {
 .list .time span {
   position: absolute;
   left: -5rem;
-  color: #d87fa1;
+  color: #D87FA1;
   font-size: 80%;
   font-weight: bold;
 }
@@ -218,7 +215,7 @@ a {
 }
 
 .list .time span:last-child {
-  top: 90%;
+  top: 90%
 }
 
 /* markdown 语法 */
@@ -248,13 +245,13 @@ a {
 }
 
 blockquote {
-  border-left: 0.15rem solid #9eac86;
+  border-left: 0.15rem solid #9EAC86;
   margin-block-start: 0.1rem;
   margin-block-end: 0.1rem;
   margin-inline-start: 0.1rem;
   margin-inline-end: 0.1rem;
   padding-left: 1rem;
-  color: #1f6751;
+  color: #1F6751;
 }
 
 h1 {
@@ -285,8 +282,7 @@ table {
   margin: 2rem 0;
 }
 
-th,
-td {
+th, td {
   font-size: 1rem;
   padding: 0.4rem;
   border: 0.1rem solid gray;
