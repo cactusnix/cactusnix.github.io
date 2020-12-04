@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Cactusnix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Dec 2019 15:47:43 +0000</lastBuildDate>
-    
-	<atom:link href="https://cactusnix.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 25 Dec 2019 15:47:43 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2019年度总结</title>
       <link>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
@@ -18,6 +14,15 @@
       
       <guid>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
       <description>引言 本文起草于在公司的加班的时候，草草完成于公司2020-01-15。 不知不觉，2019年就要结束了，今年发生的事情有很多，有些记录了，有些遗漏了，在2019年快要结束的时候，我想给自己的生活做些总结</description>
+    </item>
+    
+    <item>
+      <title>iOS 14 小组件 Age Widget - 基于 JSBox</title>
+      <link>https://cactusnix.github.io/posts/ios-14-%E5%B0%8F%E7%BB%84%E4%BB%B6-age-widget-%E5%9F%BA%E4%BA%8E-jsbox/</link>
+      <pubDate>Wed, 25 Dec 2019 15:47:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/ios-14-%E5%B0%8F%E7%BB%84%E4%BB%B6-age-widget-%E5%9F%BA%E4%BA%8E-jsbox/</guid>
+      <description>介绍 此小组件基于 iOS 上的 JSBox 编程软件开发，JSBox 使用小组件功能需要订阅，具体订阅方式可以自行查看。 支持 2*2、2*4、4*4 三种大小布局。 支持中英文语言切换，需要更改 iOS 系统语言。 有两种数据运行模式，第</description>
     </item>
     
     <item>
@@ -44,7 +49,7 @@
       <pubDate>Tue, 17 Oct 2017 17:55:49 +0000</pubDate>
       
       <guid>https://cactusnix.github.io/posts/7-years/</guid>
-      <description>Description: A meaningful song. 7 years Once I was seven years old my momma told me Go make yourself some friends or you&#39;ll be lonelyOnce I was seven years old It was a big big world, but we thought we were bigger Pushing each other to the limits, we were learning quicker By eleven smoking herb and drinking burning liquor Never rich so we were out to make that steady figure Once I was eleven years old my daddy told me Go get yourself a wife or you&#39;ll be lonely Once I was eleven years old I always had that</description>
+      <description>Description: A meaningful song. 7 years Once I was seven years old my momma told me Go make yourself some friends or you&amp;rsquo;ll be lonelyOnce I was seven years old It was a big big world, but we thought we were bigger Pushing each other to the limits, we were learning quicker By eleven smoking herb and drinking burning liquor Never rich so we were out to make that steady figure Once I was eleven years old my daddy told me Go get yourself a wife or you&amp;rsquo;ll be lonely Once I was eleven years old I always had that</description>
     </item>
     
     <item>
@@ -80,7 +85,7 @@
       <pubDate>Wed, 11 Oct 2017 23:21:05 +0000</pubDate>
       
       <guid>https://cactusnix.github.io/posts/learn-vicious-circle/</guid>
-      <description>Description: I&#39;m lost in the learn vicious circle. Recently, I fall into the learn vicious circle. When I learn programming, meeting the problems is very normal. However, there is a problem that when I solve out one problem, another problem appears in front of me. Therefore, I have to solve the new problem. So back and forth. The effectiveness is so low. I spend a lot of time, but got less. This is the learn vicious circle. It suckes me! My english is so poor. It&#39;s hard to continue my article. Should I be trapped there. Just now, I heared</description>
+      <description>Description: I&amp;rsquo;m lost in the learn vicious circle. Recently, I fall into the learn vicious circle. When I learn programming, meeting the problems is very normal. However, there is a problem that when I solve out one problem, another problem appears in front of me. Therefore, I have to solve the new problem. So back and forth. The effectiveness is so low. I spend a lot of time, but got less. This is the learn vicious circle. It suckes me! My english is so poor. It&amp;rsquo;s hard to continue my article. Should I be trapped there. Just now, I heared</description>
     </item>
     
     <item>

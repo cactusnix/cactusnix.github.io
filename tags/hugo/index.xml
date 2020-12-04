@@ -6,11 +6,7 @@
     <description>Recent content in hugo on Cactusnix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Dec 2019 12:23:35 +0000</lastBuildDate>
-    
-	<atom:link href="https://cactusnix.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 06 Dec 2019 12:23:35 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://cactusnix.github.io/posts/markdown-syntax-guide/</link>

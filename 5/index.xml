@@ -5,10 +5,6 @@
     <link>https://cactusnix.github.io/5/</link>
     <description>Recent content in 5 on Cactusnix</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    
-	<atom:link href="https://cactusnix.github.io/5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-cn</language><atom:link href="https://cactusnix.github.io/5/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

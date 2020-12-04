@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cactusnix</title>
-    <meta charset="utf-8" />
-<link rel="stylesheet" href="https://cactusnix.github.io/css/index.css">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154558247-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-154558247-1');
-</script>
-
-  </head>
+<html theme="light">
+  
+<head>
+  <meta charset="utf-8" />
+  
+  <link rel="stylesheet" href="https://cactusnix.github.io/scss/main.min.53260550f1f4eb10c5b3670c915503b1dcb14517a470502c3e58815e8482fa70.css" integrity="sha256-UyYFUPH06xDFs2cMkVUDsdyxRRekcFAsPliBXoSC&#43;nA=" media="screen">
+  <title>Cactusnix</title>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154558247-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-q-1');
+  </script>
+</head>
 
   <body>
     <div class="main">
@@ -47,7 +47,7 @@
       </span>
       
     </div>
-    <div class="tagList">
+    <div class="tag-list">
       
       <span>
         <a href="/tags/hexo">#hexo</a>
@@ -63,7 +63,7 @@
 <p>一些主题优化的删删改改，目前还没达到，高度优化的层面，与各种模版仍然大同小异，之后深入主题的部件排版部分以及 css 样式部分。</p>
 <ul>
 <li>之前遗留的问题均已经解决</li>
-<li>出现 rss 订阅内容残缺的问题，经过调试后发现生成的 atom.xml的标签标记不对，内容分割是 summary 标签，而不是 content 标签。(当然爬到这个坑之前已经各种 rss 订阅插件试过了，这里只是提出问题的关键部分，可以给可能相同情况的人一些参考)问题出在站点的配置文件中，但是由于配置文件已经被修改的面目全非，于是去官网重新下载了一份，期间与自己的配置文件进行了比对，并没有发现了错误，只能修改官网的配置文件覆盖自己的配置文件，最终解决问题。(真是符合那个表情 why it doesn't work? Now why it does work! 哈哈)牢记，以上重要的配置文件要进行备份。</li>
+<li>出现 rss 订阅内容残缺的问题，经过调试后发现生成的 atom.xml的标签标记不对，内容分割是 summary 标签，而不是 content 标签。(当然爬到这个坑之前已经各种 rss 订阅插件试过了，这里只是提出问题的关键部分，可以给可能相同情况的人一些参考)问题出在站点的配置文件中，但是由于配置文件已经被修改的面目全非，于是去官网重新下载了一份，期间与自己的配置文件进行了比对，并没有发现了错误，只能修改官网的配置文件覆盖自己的配置文件，最终解决问题。(真是符合那个表情 why it doesn&rsquo;t work? Now why it does work! 哈哈)牢记，以上重要的配置文件要进行备份。</li>
 <li>首页文章预览限制，主题自动开启了阅读全文的按钮，之后深度优化 css 样式</li>
 <li>增加了 leancloud 插件统计阅读次数，这个还可以后台修改用来装逼</li>
 <li>文章字数统计功能去除</li>
