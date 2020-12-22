@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cactusnix</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="https://cactusnix.github.io/css/normalize.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/index.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/custom.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/md.css">
+<script src="https://cactusnix.github.io/js/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cactusnix.github.io/js/base.js"></script>
+<script src="https://cactusnix.github.io/js/clipboard.min.js"></script>
+<script src="https://cactusnix.github.io/js/codeBlock.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154558247-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "UA-154558247-1");
+</script>
+</head>
+
+<body>
+  <div class="container center">
+    <div class="third-center card header">
+  <div class="nav-bar">
+    
+    <a href="/about" title="">关于</a>
+    
+    <a href="/posts" title="">归档</a>
+    
+    <a href="/" title="">首页</a>
+    
+  </div>
+  <h2 class="nav-title">Cactusnix&#39;s Blog</h2>
+  <div class="nav-descripiton">Think Different And Just Do It</div>
+</div>
+    
+<div class="single card">
+  <h4 class="card-title">README</h4>
+  <div class="subtitle-part second-center">
+    <div>
+      <embed class="icon-svg" src="/icons/createTime.svg" type="image/svg+xml" />
+      <span>2017-12-13 22:55</span>
+    </div>
+    <div>
+      <embed class="icon-svg" src="/icons/readingTime.svg" type="image/svg+xml" />
+      <span>2 mins</span>
+    </div>
+  </div>
+  <div class="small-size">
+    
+    <span>
+      <a href="/categories/%E5%8D%9A%E5%AE%A2">"博客"</a>
+    </span>
+    
+    
+    <span>
+      <a href="/tags/hexo">#hexo</a>
+    </span>
+    
+  </div>
+  <div class="divider"></div>
+  <div class="content">
+    <p>概要: Memorial day about the hexo blog theme.</p>
+<p>今天第一天正式发布了自己开发了 hexo 主题，在此记录一下。
+现在有点困 😪。
+懒癌的我日后再补上这篇记录.</p>
+<blockquote>
+<p>2017-12-15 21:29:58 水平有限 表达有限 但一直努力进步中</p>
+</blockquote>
+<h3 id="博客框架">博客框架</h3>
+<p>hexo 是基于 Node.js 的博客框架</p>
+<h3 id="博客主题">博客主题</h3>
+<p>hexo 有很多优秀的博客主题目前比较有名的是 <a href="http://notes.iissnan.com/">next</a> 和 <a href="https://blog.viosey.com/">material design</a>。 但是使用的人很多。没有真正自己博客的感觉。所以就萌发自己开发博客主题的冲动。由于是基于 hexo 框架的，并不是自己完全写一个博客。所以要依照着 hexo 框架的思路来开发。所以需要对官网的文档有了解。</p>
+<h3 id="cream-主题">cream 主题</h3>
+<p>此博客采用的是用 <a href="https://github.com/White-Windmill/hexo-theme-cream">cream 主题</a>。
+HTML 的模版引擎使用的是 pug 原名 jade。CSS 的预处理框架使用的是 stylus。
+由于都是初次接触，又学习了很久。不过不得不说模版引擎的开发效率是真的高。对于 HTML 相同代码的复用也很方便，相当的简洁。而 stylus 的使用对我来说，使得写样式的时候更有大局观，因为它可以一个.styl 调用另一个.styl。至于其他的由于使用有限，还要摸索。</p>
+<h3 id="几点问题">几点问题</h3>
+<ul>
+<li>cream 主题的 HTML 结构过于简单。</li>
+<li>CSS 的复用很差，样式很乱，手机端还有部分问题。</li>
+<li>js 实现的功能模块太少</li>
+</ul>
+<h3 id="几点说明">几点说明</h3>
+<p>之前的博客是使用的是 next 主题，域名是 <a href="www.winmill.site">www.windmill.site</a>，同时博客是部署在 GitHub Page 上的，但是由于墙的原因，访问速度实在是令人捉急。
+因而这次的是部署在阿里云的 ECS 上的，但是由于 <a href="http://www.windmill.site">www.windmill.site</a> 域名没有备案在这个服务器上，所以阿里云不提供没有备案到自家服务器的域名解析到自家服务器上(有点绕 😂)，所以只能解析到 GitHub Page 这样的 IP 上。所以只能使用之前备案过的域名 <a href="wwww.creambubble.com">www.creambubble.com</a>，至于这个域名又是另一个故事了。
+现在的想法是之后这两个域名都会一直同时续费。不过现在有个问题是，服务器到期后，怎么办，千元的年费不是学生党可以承担的(有关阿里云服务器部分可以参照另一个篇文章<a href="http://www.creambubble.com/2017/10/09/%E9%98%BF%E9%87%8C%E4%BA%91%E8%B8%A9%E5%9D%91/">阿里云踩坑</a>)。然后再去腾讯云，百度云，Azure 云，aws 各种蹭新用户学生党优惠。。。不是长久之计。
+这个博客想一直维护着，想到利用树莓派或者自己的 pc 做服务器，不过这个经搜索好像会被 ISP 发现封掉，没有测试过。那可能只能考虑搬瓦工或者 Vultr 等较便宜的 vps 提供商了，也许速度又要成为问题了，万恶的墙(虽然某种我可以理解这种政治策略)。
+算了这些问题之后再考虑吧。</p>
+  </div>
+  <blockquote>
+    <p class="smallx-size">
+      最后修改于: 2017-12-13 22:55
+    </p>
+  </blockquote>
+  
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cactusnix.github.io/css/gitalk.css">
+<script src="https://cactusnix.github.io/js/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '[59c714a919dd7940d40e]',
+    clientSecret: '[4db1956ff40ae2d360c07d22d5fa9ecd0c1ccbc8]',
+    repo: 'cactusnix.github.io',
+    owner: 'cactusnix',
+    admin: ['cactusnix'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
+</div>
+
+    <div class="third-center small-size card footer">
+  <span>Copyright &copy; 2017 - 2020</span>
+  <span> Powered by <a href="https://gohugo.io/">hugo</a> | Theme by <a href="https://github.com/cactusnix/hugo-theme-cactusnix">cactusnix </a></span>
+</div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on Cactusnix</title>
+    <link>https://cactusnix.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 25 Dec 2019 15:47:43 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2019 年度总结</title>
+      <link>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 25 Dec 2019 15:47:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;p&gt;概要: 2019 年度总结.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://cactusnix.github.io/about/</link>
+      <pubDate>Thu, 12 Dec 2019 21:35:44 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/about/</guid>
+      <description>&lt;p&gt;概要: here is my about content.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>7 years</title>
+      <link>https://cactusnix.github.io/posts/7-years/</link>
+      <pubDate>Tue, 17 Oct 2017 17:55:49 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/7-years/</guid>
+      <description>&lt;p&gt;概要: A meaningful song.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pity</title>
+      <link>https://cactusnix.github.io/posts/pity/</link>
+      <pubDate>Sat, 14 Oct 2017 22:35:32 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/pity/</guid>
+      <description>&lt;p&gt;概要: The pity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>learn vicious circle</title>
+      <link>https://cactusnix.github.io/posts/learn-vicious-circle/</link>
+      <pubDate>Wed, 11 Oct 2017 23:21:05 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/learn-vicious-circle/</guid>
+      <description>&lt;p&gt;概要: I&amp;rsquo;m lost in the learn vicious circle.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

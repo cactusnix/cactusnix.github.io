@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考 on Cactusnix</title>
+    <link>https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 思考 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 25 Dec 2019 15:47:43 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2019 年度总结</title>
+      <link>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 25 Dec 2019 15:47:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/2019%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;p&gt;概要: 2019 年度总结.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>learn vicious circle</title>
+      <link>https://cactusnix.github.io/posts/learn-vicious-circle/</link>
+      <pubDate>Wed, 11 Oct 2017 23:21:05 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/learn-vicious-circle/</guid>
+      <description>&lt;p&gt;概要: I&amp;rsquo;m lost in the learn vicious circle.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

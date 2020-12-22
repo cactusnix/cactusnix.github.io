@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on Cactusnix</title>
+    <link>https://cactusnix.github.io/tags/music/</link>
+    <description>Recent content in music on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 17 Oct 2017 17:55:49 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 years</title>
+      <link>https://cactusnix.github.io/posts/7-years/</link>
+      <pubDate>Tue, 17 Oct 2017 17:55:49 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/7-years/</guid>
+      <description>&lt;p&gt;概要: A meaningful song.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

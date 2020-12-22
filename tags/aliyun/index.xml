@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aliyun on Cactusnix</title>
+    <link>https://cactusnix.github.io/tags/aliyun/</link>
+    <description>Recent content in aliyun on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 Oct 2017 20:13:43 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/tags/aliyun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阿里云踩坑</title>
+      <link>https://cactusnix.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E8%B8%A9%E5%9D%91/</link>
+      <pubDate>Mon, 09 Oct 2017 20:13:43 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E8%B8%A9%E5%9D%91/</guid>
+      <description>&lt;p&gt;概要: The experience about aliyun.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

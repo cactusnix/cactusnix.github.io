@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cactusnix</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="https://cactusnix.github.io/css/normalize.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/index.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/custom.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/md.css">
+<script src="https://cactusnix.github.io/js/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cactusnix.github.io/js/base.js"></script>
+<script src="https://cactusnix.github.io/js/clipboard.min.js"></script>
+<script src="https://cactusnix.github.io/js/codeBlock.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154558247-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "UA-154558247-1");
+</script>
+</head>
+
+<body>
+  <div class="container center">
+    <div class="third-center card header">
+  <div class="nav-bar">
+    
+    <a href="/about" title="">关于</a>
+    
+    <a href="/posts" title="">归档</a>
+    
+    <a href="/" title="">首页</a>
+    
+  </div>
+  <h2 class="nav-title">Cactusnix&#39;s Blog</h2>
+  <div class="nav-descripiton">Think Different And Just Do It</div>
+</div>
+    
+<div class="single card">
+  <h4 class="card-title">hello hexo3</h4>
+  <div class="subtitle-part second-center">
+    <div>
+      <embed class="icon-svg" src="/icons/createTime.svg" type="image/svg+xml" />
+      <span>2017-10-10 21:42</span>
+    </div>
+    <div>
+      <embed class="icon-svg" src="/icons/readingTime.svg" type="image/svg+xml" />
+      <span>2 mins</span>
+    </div>
+  </div>
+  <div class="small-size">
+    
+    <span>
+      <a href="/categories/%E5%8D%9A%E5%AE%A2">"博客"</a>
+    </span>
+    
+    
+    <span>
+      <a href="/tags/hexo">#hexo</a>
+    </span>
+    
+  </div>
+  <div class="divider"></div>
+  <div class="content">
+    <p>概要: The experience about hexo three.</p>
+<p>一些主题优化的删删改改，目前还没达到，高度优化的层面，与各种模版仍然大同小异，之后深入主题的部件排版部分以及 css 样式部分。</p>
+<ul>
+<li>之前遗留的问题均已经解决</li>
+<li>出现 rss 订阅内容残缺的问题，经过调试后发现生成的 atom.xml 的标签标记不对，内容分割是 summary 标签，而不是 content 标签。(当然爬到这个坑之前已经各种 rss 订阅插件试过了，这里只是提出问题的关键部分，可以给可能相同情况的人一些参考)问题出在站点的配置文件中，但是由于配置文件已经被修改的面目全非，于是去官网重新下载了一份，期间与自己的配置文件进行了比对，并没有发现了错误，只能修改官网的配置文件覆盖自己的配置文件，最终解决问题。(真是符合那个表情 why it doesn&rsquo;t work? Now why it does work! 哈哈)牢记，以上重要的配置文件要进行备份。</li>
+<li>首页文章预览限制，主题自动开启了阅读全文的按钮，之后深度优化 css 样式</li>
+<li>增加了 leancloud 插件统计阅读次数，这个还可以后台修改用来装逼</li>
+<li>文章字数统计功能去除</li>
+<li>文章预估阅读时间功能去除</li>
+</ul>
+<p>在这里说一下，博客的接下来的理想中的预期效果：</p>
+<ul>
+<li>减少整个主题的性冷淡风</li>
+<li>按钮，字体，友情链接等细节赋有个人的特色</li>
+<li>增加网易云评论系统</li>
+<li>增加网易云播放器</li>
+<li>域名绑定<a href="www.windmill.site">wwww.windmill.site</a></li>
+<li>预设几套文章的模版</li>
+<li>预设几套网站的 css 样式</li>
+<li>目前这么多期待之后的补充</li>
+</ul>
+<p>以上。</p>
+  </div>
+  <blockquote>
+    <p class="smallx-size">
+      最后修改于: 2017-10-10 21:42
+    </p>
+  </blockquote>
+  
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cactusnix.github.io/css/gitalk.css">
+<script src="https://cactusnix.github.io/js/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '[59c714a919dd7940d40e]',
+    clientSecret: '[4db1956ff40ae2d360c07d22d5fa9ecd0c1ccbc8]',
+    repo: 'cactusnix.github.io',
+    owner: 'cactusnix',
+    admin: ['cactusnix'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
+</div>
+
+    <div class="third-center small-size card footer">
+  <span>Copyright &copy; 2017 - 2020</span>
+  <span> Powered by <a href="https://gohugo.io/">hugo</a> | Theme by <a href="https://github.com/cactusnix/hugo-theme-cactusnix">cactusnix </a></span>
+</div>
+  </div>
+</body>
+
+</html>

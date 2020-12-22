@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on Cactusnix</title>
+    <link>https://cactusnix.github.io/categories/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on Cactusnix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 Dec 2019 12:23:35 +0000</lastBuildDate><atom:link href="https://cactusnix.github.io/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://cactusnix.github.io/posts/markdown-syntax-guide/</link>
+      <pubDate>Fri, 06 Dec 2019 12:23:35 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;概要: here is my markdown syntax guide.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>README</title>
+      <link>https://cactusnix.github.io/posts/readme/</link>
+      <pubDate>Wed, 13 Dec 2017 22:55:34 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/readme/</guid>
+      <description>&lt;p&gt;概要: Memorial day about the hexo blog theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello hexo5</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo5/</link>
+      <pubDate>Mon, 16 Oct 2017 18:25:38 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo5/</guid>
+      <description>&lt;p&gt;概要: The experience about hexo five.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello hexo4</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo4/</link>
+      <pubDate>Thu, 12 Oct 2017 19:04:49 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo4/</guid>
+      <description>&lt;p&gt;概要: The experience about hexo four.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello hexo3</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo3/</link>
+      <pubDate>Tue, 10 Oct 2017 21:42:46 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo3/</guid>
+      <description>&lt;p&gt;概要: The experience about hexo three.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello hexo2</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo2/</link>
+      <pubDate>Sun, 08 Oct 2017 23:08:55 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo2/</guid>
+      <description>&lt;p&gt;概要: The experience about hexo two.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello hexo</title>
+      <link>https://cactusnix.github.io/posts/hello-hexo/</link>
+      <pubDate>Sat, 07 Oct 2017 22:43:25 +0000</pubDate>
+      
+      <guid>https://cactusnix.github.io/posts/hello-hexo/</guid>
+      <description>&lt;p&gt;概要: The experience about hexo one.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
