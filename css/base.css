@@ -1,0 +1,89 @@
+/* 通用样式 */
+* {
+  letter-spacing: 0.8px;
+  color: #5a5a5a;
+}
+
+/* html,
+body,
+.container {
+  height: 100vh;
+} */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB',
+    'Hiragino Sans GB W3', 'WenQuanYi Micro Hei', sans-serif;
+  /* background-image: url(../images/index.png);
+  background-size: cover;
+  background-attachment: fixed; */
+  background-color: rgb(57, 57, 57);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #a6d0e4;
+}
+
+img {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-center {
+  display: flex;
+  align-items: center;
+}
+
+.third-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.icon-svg {
+  width: 14px;
+  height: 14px;
+  padding: 0 5px 0 0;
+}
+
+.small-size {
+  font-size: 0.85em;
+}
+
+.smallx-size {
+  font-size: 0.95em;
+}
+
+.normal-size {
+  font-size: 1em;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: indianred;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
