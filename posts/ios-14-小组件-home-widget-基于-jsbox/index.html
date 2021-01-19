@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cactusnix</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="https://cactusnix.github.io/css/normalize.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/base.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/custom.css">
+<link rel="stylesheet" href="https://cactusnix.github.io/css/md.css">
+<script src="https://cactusnix.github.io/js/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cactusnix.github.io/js/base.js"></script>
+<script src="https://cactusnix.github.io/js/clipboard.min.js"></script>
+<script src="https://cactusnix.github.io/js/codeBlock.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154558247-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "UA-154558247-1");
+</script>
+</head>
+
+<body>
+  <div class="container center">
+    <div class="third-center card header">
+  <div class="nav-bar">
+    
+    <a href="/about" title="">关于</a>
+    
+    <a href="/posts" title="">归档</a>
+    
+    <a href="/" title="">首页</a>
+    
+  </div>
+  <h2 class="nav-title">Cactusnix&#39;s Blog</h2>
+  <div class="nav-descripiton">Think Different And Just Do It</div>
+</div>
+    
+<div class="single card">
+  <h4 class="card-title">iOS 14 小组件 Home Widget - 基于 JSBox</h4>
+  <div class="subtitle-part second-center">
+    <div>
+      <embed class="icon-svg" src="/icons/createTime.svg" type="image/svg+xml" />
+      <span>0001-01-01 00:00</span>
+    </div>
+    <div>
+      <embed class="icon-svg" src="/icons/readingTime.svg" type="image/svg+xml" />
+      <span>2 mins</span>
+    </div>
+  </div>
+  <div class="small-size">
+    
+    <span>
+      <a href="/categories/%E7%BC%96%E7%A8%8B">"编程"</a>
+    </span>
+    
+    
+    <span>
+      <a href="/tags/%E5%BC%80%E5%8F%91">#开发</a>
+    </span>
+    
+  </div>
+  <div class="divider"></div>
+  <div class="content">
+    <p>概要: JSBox 开发 Home Widget 小组件.</p>
+<h3 id="开头说明">开头说明</h3>
+<p>目前脚本仍算简陋，但基本功能都有，谨慎使用，可以自行修改。</p>
+<p>有建议、bug 都可以提 issue，有时间会优化修改。</p>
+<p>之后有时间会优化日历、提醒模块，或者加上电池模块，但 less is more 嘛，目前就这样了。</p>
+<p>版本 0.9 🎉</p>
+<h3 id="介绍">介绍</h3>
+<blockquote>
+<p>此小组件基于 iOS 上的 <a href="https://apps.apple.com/cn/app/jsbox-%E5%AD%A6%E4%B9%A0%E5%86%99%E4%BB%A3%E7%A0%81/id1312014438">JSBox</a> 编程软件开发，JSBox 使用小组件功能需要订阅，具体订阅方式可以自行查看。</p>
+</blockquote>
+<ol>
+<li>
+<p>只支持 4*4 布局。</p>
+</li>
+<li>
+<p>只支持英文</p>
+</li>
+<li>
+<p>内容模块有问候信息、日期、天气、日历、提醒。信息模块单纯根据时间进行区分 Sleeping Time 为[22:00, 24:00] || (24:00, 07:00]，Good Morning 为[07:00, 12:00)，Good Afternoon 为[12:00, 17:00)，Good Evening 为[17:00, 22:00)。日期模块会展示星期几，日期，以及第一个全天日程。天气模块需要自定配置和风天气的 key，展示当前温度和体感温度。日历模块展示第一个非全天日程，提醒展示第一个提醒以及剩余提醒个数。</p>
+</li>
+<li>
+<p>由于小组件不支持背景透明，所以颜色是设定好的，建议使用纯色背景，如有特殊需求可以自行修改代码。</p>
+</li>
+<li>
+<p>示例背景<img src="./assets/bg.jpg" alt="背景"></p>
+</li>
+</ol>
+<h3 id="用法">用法</h3>
+<ol>
+<li>安装<a href="https://apps.apple.com/cn/app/jsbox-%E5%AD%A6%E4%B9%A0%E5%86%99%E4%BB%A3%E7%A0%81/id1312014438">JSBox</a></li>
+<li>下载<a href="https://xteko.com/redir?name=HomeWidget&amp;url=https://github.com/cactusnix/life-assistant-backend/blob/master/jsbox_part/HomeWidget/.output/HomeWidget.box">HomeWidget 小组件脚本</a></li>
+<li>桌面添加小组件选择 JSBox</li>
+<li>编辑小组件选择 HomeWidget 脚本，选取配置正确的 JSON 入参</li>
+<li>参数说明:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;weatherKey&#34;</span>: <span style="color:#e6db74">&#34;personalkey&#34;</span>
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">- weatherKey: 非必填/string eg: &#34;personalkey&#34;，不填写没有天气模块
+</code></pre></div><h3 id="运行截图">运行截图</h3>
+<p><img src="./light.png" alt="light">
+<img src="./dark.png" alt="dark"></p>
+  </div>
+  <blockquote>
+    <p class="smallx-size">
+      最后修改于: 0001-01-01 00:00
+    </p>
+  </blockquote>
+  
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cactusnix.github.io/css/gitalk.css">
+<script src="https://cactusnix.github.io/js/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '[59c714a919dd7940d40e]',
+    clientSecret: '[4db1956ff40ae2d360c07d22d5fa9ecd0c1ccbc8]',
+    repo: 'cactusnix.github.io',
+    owner: 'cactusnix',
+    admin: ['cactusnix'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
+</div>
+
+    <div class="third-center small-size card footer">
+  <span>Copyright &copy; 2017 - 2021</span>
+  <span> Powered by <a href="https://gohugo.io/">hugo</a> | Theme by <a href="https://github.com/cactusnix/hugo-theme-cactusnix">cactusnix </a></span>
+</div>
+  </div>
+</body>
+
+</html>
